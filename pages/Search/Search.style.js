@@ -1,0 +1,73 @@
+import { StyleSheet } from 'react-native';
+
+export const s = StyleSheet.create({
+    searchCockailsContainer: {
+        flexDirection: 'row',
+        padding: 10,
+    },
+    input: {
+        marginTop: 20,
+        backgroundColor: 'white',
+        height: 40,
+        paddingLeft: 20,
+        borderRadius: 20,
+        fontFamily: 'AlataRegular',
+        shadowColor: '#000',
+        shadowOffset: { width: 0, height: 2 },
+        shadowOpacity: 0.25,
+        shadowRadius: 3.84,
+        elevation: 5,
+        marginHorizontal: 10,
+    },
+    ingredientsContainer: {
+        flexDirection: 'row',
+        position: 'absolute',
+        bottom: 0,
+        left: 0,
+        right: 0,
+        marginHorizontal: 5,
+        paddingVertical: 10,
+    },
+    ingredientText: {
+        color: 'black',
+        fontFamily: 'AlataRegular',
+        marginHorizontal: 5,
+        textAlign: 'center',
+    },
+    ingredientTextContainer: {
+        backgroundColor: '#F7F7F7',
+        flexDirection: 'row',
+        alignItems: 'center',
+        justifyContent: 'center',
+        borderRadius: 20,
+        paddingVertical: 5,
+        paddingHorizontal: 10,
+        marginHorizontal: 5,
+        borderWidth: 1,
+        borderColor: '#EAEAEA',
+    },
+    ingredientButton: {
+        borderRadius: 15,
+        marginLeft: 5,
+        paddingHorizontal: 5,
+        paddingVertical: 2,
+    },
+    ingredientButtonText: {
+        color: 'red',
+        fontWeight: 'bold',
+        fontSize: 16,
+    },
+    errorMessageContainer: {
+        marginTop: 20,
+        justifyContent: 'center',
+        alignItems: 'center',
+    },
+    errorMessage: {
+        textAlign: 'center',
+        fontFamily: 'AlataRegular',
+        fontSize: 18,
+        fontWeight: 'bold',
+        marginTop: 20,
+        color: 'red',
+    },
+});
